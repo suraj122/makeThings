@@ -1,5 +1,9 @@
 @import 'grid';
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .top-banner {
 	position: relative;
 	img {
@@ -33,9 +37,26 @@
 		cursor: pointer;
 	}
 	.your-creation {
-		margin-top: 40px;
+		margin-top: 70px;
 		margin-bottom: 20px;
 		padding: 10px 15px;
+		.head {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 40px;
+			img{
+				height: 80px;
+				width: 80px;
+				border-radius: 50%;
+			}
+			h1 {
+				font-family: 'Roboto', sans-serif;
+				font-weight: normal;
+				color: #444;
+				margin-left: 10px;
+			}
+		}
 		.creation-list {
 			margin-bottom: 30px;
 			overflow: hidden;

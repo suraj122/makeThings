@@ -430,6 +430,9 @@ body {
 .modal-footer:after {
   clear: both; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
 .top-banner {
   position: relative; }
   .top-banner img {
@@ -456,9 +459,23 @@ body {
     border-radius: 20px;
     cursor: pointer; }
   .make-things .your-creation {
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 20px;
     padding: 10px 15px; }
+    .make-things .your-creation .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 40px; }
+      .make-things .your-creation .head img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%; }
+      .make-things .your-creation .head h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        color: #444;
+        margin-left: 10px; }
     .make-things .your-creation .creation-list {
       margin-bottom: 30px;
       overflow: hidden;
